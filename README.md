@@ -59,7 +59,7 @@ erDiagram
 
 Uses the standard **Contact** table for case requesters.
 
-Full column-level design: [`docs/data-model.md`](docs/data-model.md)
+Full column-level design: [`data-model.md`](data-model.md)
 
 ## 🔐 Security Roles
 
@@ -71,7 +71,7 @@ Full column-level design: [`docs/data-model.md`](docs/data-model.md)
 | Delete | — | — | Organization | — |
 | Assign | User | Business Unit | Organization | — |
 
-Details and rationale: [`docs/security-roles.md`](docs/security-roles.md)
+Details and rationale: [`security-roles.md`](security-roles.md)
 
 ## ⚙️ App Features
 
@@ -83,7 +83,7 @@ Details and rationale: [`docs/security-roles.md`](docs/security-roles.md)
 
 ## 📦 Solution Layout
 
-The unpacked solution goes in `/solution` (exported with `pac solution export` and unpacked with `pac solution unpack`). See the [ALM pipelines repo](https://github.com/pavan-reddy-cheedeti/powerplatform-alm-pipelines) for automation.
+The unpacked solution goes in `/solution` (exported with `pac solution export` and unpacked with `pac solution unpack`). See the [ALM pipelines repo](https://github.com/cpreddy15/powerplatform-alm-pipelines) for automation.
 
 ## 👤 Author
 
